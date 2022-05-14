@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-bio',
@@ -11,5 +12,10 @@ export class BioComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  getage(name:any)
+  {
+   alert(name)
+ }
+arr = ['15,25,32']
 
 }
