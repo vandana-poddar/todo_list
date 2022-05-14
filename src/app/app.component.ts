@@ -14,5 +14,5 @@ export class AppComponent {
   obj = {
     sirname:'poddar'
   }
-  arr = ['12,15,12,55']
+  arr = ['12','15','12','55']
 }
