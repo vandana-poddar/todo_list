@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'todolist';
-
-
+  eventcollection(event :any){
+    alert(event)
+  }
 }
