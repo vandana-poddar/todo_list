@@ -1,3 +1,4 @@
+import { CurrencyPipe } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,7 +8,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'todolist';
-  eventcollection(event :any){
-    alert(event)
+  ishidden = false;
+  getval(txt :any){
+    console.log(txt)
+
+    // this.cuurentvAL = txt;
   }
 }

@@ -1,44 +1,21 @@
 
-<h2>creating events</h2>
-<br>
-<br>
-<button (click) = "eventcollection('age:21')">click me</button>"
+<h2>property binding</h2>
 <br>
 <br>
 <br>
-<input type="text" />
+<!-- <input type ="text" #box (keyup)= "getval(box.value)"/> -->
+<input type ="text" #box/>
+<button (click) = "getval(box.value)">click me</button>"
 <br>
+<button disabled = {{ishidden}}>click me</button><br>
+<button [disabled] = 'ishidden'>click me</button>
+<button bind-disabled = 'ishidden'>click me (canonical)</button><br>
 <br>
+<!-- <div>checking purpose</div> -->
+<div [hidden] ='ishidden' >checking purpose with property binding</div>
+<div hidden = {{ishidden}}>chbkbfvjkbfdkj</div>
 <br>
-<input type="text" #box (keyup)="eventcollection(box.value)" />
-<br>
-<br>
-<br>
-<input type="text" #box (keyup.enter)="eventcollection(box.value)" />
-<br>
-<br>
-<br>
-<input type="text" #box (keyup.space)="eventcollection(box.value)" />
-<br>
-<br>
-<br>
-<input type="text" #box (keydown.enter)="eventcollection(box.value)" />
-<br>
-<br>
-<br>
-<div (mouseover)="eventcollection('mouse in')"
- style = "background-color: cadetblue;">
- mouse events
-</div>
-<br>
-<br>
-<br>
-<div (mouseleave)="eventcollection('mouse out')"
- style = "background-color: cadetblue;">
- mouse events
-</div>
-<br>
-<br>
-<br>
-<input type="text" (blur) ="eventcollection(box.value)" />
+<!-- <h1>{{cuurentvAL}}</h1> -->
 
+<!-- getting value from text using button as well -->
+<!-- <input type="text" #box (keyup) = "getval(box.value)"/> -->
