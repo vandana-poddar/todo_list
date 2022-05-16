@@ -1,21 +1,10 @@
+<style>
+div {text-align: center;
+  margin: 20px;
+  padding: 20px}
+</style>
+<div>
+    <h1>TO DO LIST</h1>
+    <app-todos></app-todos>
+</div>
 
-<h2>property binding</h2>
-<br>
-<br>
-<br>
-<!-- <input type ="text" #box (keyup)= "getval(box.value)"/> -->
-<input type ="text" #box/>
-<button (click) = "getval(box.value)">click me</button>"
-<br>
-<button disabled = {{ishidden}}>click me</button><br>
-<button [disabled] = 'ishidden'>click me</button>
-<button bind-disabled = 'ishidden'>click me (canonical)</button><br>
-<br>
-<!-- <div>checking purpose</div> -->
-<div [hidden] ='ishidden' >checking purpose with property binding</div>
-<div hidden = {{ishidden}}>chbkbfvjkbfdkj</div>
-<br>
-<!-- <h1>{{cuurentvAL}}</h1> -->
-
-<!-- getting value from text using button as well -->
-<!-- <input type="text" #box (keyup) = "getval(box.value)"/> -->
