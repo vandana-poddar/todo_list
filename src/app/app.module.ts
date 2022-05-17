@@ -7,6 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TodoItemComponent } from './todo-item/todo-item.component';
 import { TodosComponent } from './todos/todos.component';
+import { Grphsd3Component } from './grphsd3/grphsd3.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { TodosComponent } from './todos/todos.component';
     TodosComponent,
     TodoItemComponent,
     AddTodoComponent,
+    Grphsd3Component,
 
 
   ],
